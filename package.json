@@ -1,0 +1,27 @@
+{
+  "name": "mongoose-sampling",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server",
+    "test": "mocha test/**/*.spec.js",
+    "submit": "mocha test/submission.spec.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4"
+  },
+  "devDependencies": {
+    "body-parser": "^1.18.2",
+    "chai": "^4.1.2",
+    "chai-http": "^3.0.0",
+    "express": "^4.16.2",
+    "gulp-nodemon": "^2.2.1",
+    "mocha": "^3.5.0",
+    "mongoose": "^4.12.4",
+    "morgan": "^1.9.0"
+  }
+}
